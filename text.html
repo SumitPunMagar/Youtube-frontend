@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .email {
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgba(80, 78, 78, 0.911);
+            font-size: 18px;
+            margin: 0;
+            padding-bottom: 10px;
+
+        }
+
+        .search-bar {
+            width: 390px;
+            height: 25px;
+            border: 2px solid rgba(0, 0, 0, 0.438);
+            border-radius: 5px;
+        }
+
+        .description {
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgba(80, 78, 78, 0.911);
+        }
+
+        .button {
+            margin: 0;
+            font-size: 20px;
+            color: white;
+            width: 390px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            background-color: #0000ffa2;
+            border-radius: 100px;
+            display: block;
+            transition: opacity 2s, color 2s;
+        }
+
+        .button:hover {
+            opacity: 0.7;
+            color: black;
+        }
+
+        .button:active {
+            color: gold;
+            background-color: gold;
+        }
+
+        .video-description {
+            display: inline-block;
+            width: 300px;
+            vertical-align: middle;
+
+        }
+
+        .header {
+            display: flex;
+            flex-direction: row;
+
+            height: 80px;
+            background-color: purple;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 100px;
+
+
+        }
+
+        .left {
+            width: 100px;
+
+        margin-left: 20px;
+            font-size: 25px;
+            color: white;
+            font-weight: bold;
+        }
+
+        .middle {
+            flex: 1;
+            margin-left: 80px;
+            margin-right: 60px;
+            max-width: 700px;
+           
+
+        }
+
+        .right {
+            width: 150px;
+            margin-right: 20px ;
+        }
+
+    .download-button{
+        width: 150px;
+        height: 40px;
+        border-color: white;
+        background-color: purple;
+        font-size: large;
+        border-radius: 2px;
+    }
+
+    .search-engine{
+        width: 700px;
+        height: 40px;
+        border-radius: 25px;
+        border: 1px solid white;
+ 
+        font-weight: bold;
+        padding-left: 40px;
+    }
+
+
+    .flex-practice{
+
+        width: 500px;   
+        border: 1px solid gray;
+        border-radius: 15px;
+        margin-left: 400px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: larger;
+        font-weight: 500;
+    }
+
+    .class-1{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+        margin-left: 10px;
+
+
+       
+    }
+
+    .notification{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+        margin-left: 10px;
+        margin-right: 10px;
+
+    }
+
+    .messages{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+
+    }
+
+
+
+    </style>
+
+</head>
+
+<body style="padding-bottom: 1000px;">
+    <p class="email">Email</p>
+    <input class="search-bar" type="text" placeholder="Search Here">
+    <p class="description">By clicking Agree & Join, you Agree to the Privacy Policy.</p>
+    <button class="button">Agree & Join</button>
+    <p class="video-description">Thanks for visiting our website. Do you want to buy some products?</p>
+    <button class="yes-button">Yes</button>
+    <button class="no-button">No</button>
+
+    <div class="header">
+        <div class="left">Home</div>
+        <div class="middle"> <input class="search-engine" type="text" placeholder="Search"></div>
+        <div class="right"><button class="download-button">Download</button></div>
+    </div>
+
+
+    <div class="flex-practice">
+        <div class="class-1">
+            <div>Home</div>
+            <div style="
+            background-color: #00acee;
+            width: 60px;
+            height: 30px;
+            padding-top: 10px;
+            text-align: center;
+            border-radius: 20px;
+            ">14</div>
+        </div>
+
+        <div class="notification">
+            <div>Notification</div>
+            <div  style="
+            background-color: #00acee;
+            width: 60px;
+            height: 30px;
+            padding-top: 10px;
+            text-align: center;
+            border-radius: 20px;
+            ">3</div>
+        </div>
+        
+        <div class="messages">
+            <div>Messages</div>
+            <div  style="
+            background-color: #00acee;
+            width: 60px;
+            height: 30px;
+            padding-top: 10px;
+            text-align: center;
+            border-radius: 20px;
+            ">5</div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>

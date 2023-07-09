@@ -1,0 +1,66 @@
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+}
+
+.video-title {
+    color: black;
+    font-weight: bold;
+    font-size: 19.5px;
+
+
+    margin-bottom: 15px;
+}
+
+.view-description {
+    font-size: 15px;
+
+    color: rgb(3, 3, 3);
+    width: 700px;
+    margin-bottom: 20px;
+
+}
+
+.click-button{
+    background-color: rgba(12, 129, 12, 0.61);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 25px;
+    padding-left: 25px;
+    
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 8px;
+    font-size: 22px;
+    font-weight: 200;
+    color: white;
+    cursor: pointer;
+    transition: opacity 1s,;
+
+}
+
+.click-button:hover{
+    opacity: 0.7;
+}
+
+.click-button:active{
+    opacity: o.9;
+}
+
+.underline-example{
+    text-decoration: underline;
+    cursor: pointer;
+    color: red;
+    font-weight: bold;
+    transition: opacity 1s, color 1s;
+}
+
+.underline-example:hover{
+    opacity: 0.5;
+    color: blue;
+}
+
+.underline-example:active{
+    opacity: 0.4;
+    color: yellow;
+}
